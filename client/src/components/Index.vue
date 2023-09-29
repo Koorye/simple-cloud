@@ -94,6 +94,12 @@ export default {
     mounted: function() {
         this.username = Vue.prototype.$username
         this.client = Vue.prototype.$client
+
+        console.log(this.client)
+        if (this.client == undefined) {
+            this.handleExit()
+        }
+
         this.getDirectory()
     },
     methods: {
@@ -210,7 +216,6 @@ export default {
                     message: '已经是根目录',
                     type: 'warning'
                 })
-                return
                 return
             }
 
