@@ -1,5 +1,5 @@
 # Simple Cloud
-A simple cloud webdav browser client by Vue.
+A simple cloud webdav browser client by Vue, for school homework :)
 
 Functions:
 1. Upload/Download files.
